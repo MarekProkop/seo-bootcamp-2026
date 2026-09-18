@@ -1,5 +1,6 @@
 ---
 status: new
+verdict:
 trust-level: approved
 ---
 ## Zadání

@@ -43,6 +43,10 @@ author: Marek Prokop
 
 ---
 
+![bg contain](images/obsidian-01.png)
+
+---
+
 # Obsidian: doplňky
 
 <div class="cols mensi">
@@ -99,6 +103,10 @@ Agent vidí všechno, co vidím já, a čte a píše to stejně jako kód.
 
 ---
 
+![bg contain](images/obsidian-06.png)
+
+---
+
 # Struktura vaultu
 
 <div class="cols">
@@ -130,6 +138,10 @@ Jinde nic: žádné poznámky v Google Docs, žádná fakta v chatu.
 
 ---
 
+![bg contain](images/obsidian-02.png)
+
+---
+
 # Poznámka projektu = jediný zdroj pravdy
 
 ```markdown
@@ -148,6 +160,10 @@ na testovací verzi s přesměrováním; podrobně [[Migrace na nový e-shop]].
 ```
 
 Agent čte „Aktuální stav", ne dvacet denních zápisů.
+
+---
+
+![bg contain](images/obsidian-04.png)
 
 ---
 
@@ -251,17 +267,33 @@ Kde to jde, CLI před MCP: nestojí kontext, dokud se nezavolá.
 
 # Skilly jsou moje postupy
 
+<div class="cols">
+<div>
+
 ### Řízení práce
 `/weekly-plan` `/meeting-prep` `/toggl-check`
 
 ### Znalosti
 `/kb-zapis` `/kb` `/kb-zarad` `/kb-kontrola` `/prepis`
 
+### Nápady a zdroje
+`/backlog` `/youtube`
+
+</div>
+<div>
+
 ### Psaní
 `/write` `/zkrat`
 
 ### Přemýšlení
 `/council` `/model-panel` `/grill-me`
+
+</div>
+</div>
+
+---
+
+![bg contain](images/obsidian-07.png)
 
 ---
 
@@ -332,6 +364,10 @@ Claude Code bez obsluhy, 5:30, NUC. Pošta jen jako korekce.
 
 ---
 
+![bg contain](images/obsidian-05.png)
+
+---
+
 # Schůzka
 
 <div class="tok">
@@ -355,6 +391,10 @@ Přítomni: [[Petra Kroupová]], [[Tomáš Vydra]]
 ```
 
 Denní zápis je historie. Poznámka projektu je současnost.
+
+---
+
+![bg contain](images/obsidian-03.png)
 
 ---
 
@@ -397,7 +437,7 @@ Co patří kam, říká `CLAUDE.md`.
 - Fakturoid: obrat podle data plnění.
 - Sheets: hodiny po klientech proti plánu.
 - Poznámky projektů: statusy.
-- Denní zápisy: nabídnutá kapacita (`#planovani-kapacity`).
+- Denní zápisy: `#plan-kapacity`.
 
 </div>
 <div>

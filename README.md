@@ -25,7 +25,7 @@ Co v něm je:
 - `Backlog/`: položky k vyzkoušení a tabulka Bases.
 - `Briefing.md` a `Scripts/briefing-prompt.md`: ukázka ranního briefingu a zkrácený prompt, kterým ho agent na serveru píše.
 - `Úkoly.md`: dotazy pluginu Tasks.
-- `.claude/skills/`: skilly `meeting-prep` (zkrácený) a `kb-zapis` (celý).
+- `.claude/skills/`: skilly `meeting-prep` (zkrácený), `kb-zapis`, `backlog` a `youtube` (se skriptem na stažení přepisu přes yt-dlp).
 - `.obsidian/`: nastavení vaultu a doplňky Tasks a Folder Notes, aby šel otevřít bez instalace.
 
 ### Jak si ho vyzkoušet
@@ -38,7 +38,7 @@ Co v něm je:
    claude
    ```
 
-3. Zkusit například: „Jak jsme na tom s Bicyklem?", „Zapiš: crawl e-shopu vždy s vypnutým JavaScriptem nejdřív" nebo `/meeting-prep` (ten potřebuje [Google Workspace CLI](https://github.com/googleworkspace/cli) a kalendář, bez nich skončí u prvního kroku).
+3. Zkusit například: „Jak jsme na tom s Bicyklem?", „Zapiš: crawl e-shopu vždy s vypnutým JavaScriptem nejdřív", `/backlog` (zpracuje novou položku v `Backlog/`), `/youtube <adresa videa>` (potřebuje `yt-dlp`) nebo `/meeting-prep` (ten potřebuje [Google Workspace CLI](https://github.com/googleworkspace/cli) a kalendář, bez nich skončí u prvního kroku).
 
 ## Co je potřeba mít nainstalované
 

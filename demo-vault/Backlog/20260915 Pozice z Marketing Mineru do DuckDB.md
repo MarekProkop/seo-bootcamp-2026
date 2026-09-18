@@ -1,10 +1,15 @@
 ---
 status: researched
+verdict: 🟢
 trust-level: ai-generated
 ---
 ## Zadání
 
 Zkusit stahovat týdenní pozice sledovaných slov z Marketing Mineru do DuckDB, aby šly spojit s crawlem a se Search Console v jednom dotazu. Zatím se pozice čtou jen v rozhraní.
+
+## Verdikt
+
+Udělat: jedno volání týdně, data se spojí s crawlem i Search Console a odpadne ruční čtení pozic v rozhraní.
 
 ## Kontext (Claude)
 

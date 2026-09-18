@@ -20,5 +20,6 @@ Co kde je:
 - `Briefing.md`: ukázka ranního briefingu, jak ho v 5:30 píše agent na serveru.
 - `Scripts/briefing-prompt.md`: zkrácený prompt toho briefingu.
 - `Úkoly.md`: dotazy pluginu Tasks přes celý vault.
-- `.claude/skills/`: dva skilly, `meeting-prep` a `kb-zapis`.
+- `.claude/skills/`: čtyři skilly, `meeting-prep`, `kb-zapis`, `backlog` a `youtube`.
+- `YouTube/`: sem ukládá rozbory skill `/youtube`.
 - `.obsidian/`: nastavení a doplňky Tasks a Folder Notes, aby vault fungoval hned po otevření.
