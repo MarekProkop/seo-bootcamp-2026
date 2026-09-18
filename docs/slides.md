@@ -414,6 +414,10 @@ Nejvíc pravidel v `CLAUDE.md` je právě tady. Tady se nejvíc chybovalo.
 
 ---
 
+![bg contain](images/dashboard.png)
+
+---
+
 # Jak si postavit vlastní
 
 <div class="krok"><b>1</b><div>Vault s markdownem a jeden <code>CLAUDE.md</code>: struktura a to, co agent dělá špatně. Klidně deset řádků.</div></div>
