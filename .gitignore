@@ -1,0 +1,7 @@
+node_modules/
+priprava/
+docs/slides.pdf
+docs/slides.pptx
+demo-vault/.obsidian/
+.DS_Store
+Thumbs.db
