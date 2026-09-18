@@ -1,0 +1,3 @@
+themeSet: docs/theme.css
+html: true
+allowLocalFiles: true

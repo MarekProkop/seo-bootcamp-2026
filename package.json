@@ -1,0 +1,15 @@
+{
+  "name": "seo-bootcamp-2026",
+  "version": "1.0.0",
+  "description": "Claude Code a Obsidian jako osobní asistent SEO konzultanta. Přednáška na SEO Bootcampu 2026, Radešín, 18. 9. 2026",
+  "private": true,
+  "scripts": {
+    "preview": "marp --preview docs/slides.md --html",
+    "build": "marp docs/slides.md -o docs/index.html --html",
+    "watch": "marp docs/slides.md -o docs/index.html --html --watch",
+    "pdf": "marp docs/slides.md -o docs/slides.pdf --html"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4"
+  }
+}

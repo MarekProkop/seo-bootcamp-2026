@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.inFolder("Backlog")
+    - file.name != "Backlog"
+    - file.name != "_backlog.base"
+formulas:
+  title: link(file.path, file.name.slice(9))
+  created: file.name.slice(0, 4) + "-" + file.name.slice(4, 6) + "-" + file.name.slice(6, 8)
+views:
+  - type: table
+    name: Backlog
+    order:
+      - formula.title
+      - verdict
+      - status
+      - formula.created
+    sort:
+      - property: formula.created
+        direction: DESC
+    columnSize:
+      formula.title: 390
+      verdict: 70
