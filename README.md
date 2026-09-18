@@ -12,23 +12,25 @@ Zdroj: [`docs/slides.md`](docs/slides.md) (Marp).
 
 ## Ukázkový vault
 
-Složka [`demo-vault/`](demo-vault/) je Obsidian vault se stejnou strukturou, konvencemi, `CLAUDE.md` a skilly, jaké používám ve skutečném vaultu. **Klient Zahrada Kroupa, jeho lidé, čísla a e-shop jsou smyšlení.** Skutečný vault má 1 590 poznámek a `CLAUDE.md` o 258 řádcích; ukázka je zkrácená tak, aby se dala přečíst za deset minut.
+Složka [`demo-vault/`](demo-vault/) je Obsidian vault se stejnou strukturou, konvencemi, `CLAUDE.md` a skilly, jaké používám ve skutečném vaultu. **Všichni klienti, jejich lidé, weby a čísla jsou smyšlení.** Skutečný vault má 1 590 poznámek a `CLAUDE.md` o 258 řádcích; ukázka je zkrácená tak, aby se dala přečíst za deset minut.
 
 Co v něm je:
 
 - `CLAUDE.md`: pravidla pro Claude Code. Struktura vaultu, konvence, formát denních zápisů a poznámek projektů, Obsidian CLI a jeho pasti, pravidla psaní, pravidla vzniklá z chyb agenta.
-- `Projekty/Zahrada Kroupa/`: poznámka složky projektu jako jediný zdroj pravdy (Aktuální stav, Kapacita, Úkoly, Cizí úkoly, Archiv statusů) a podpoznámka k migraci.
+- `Projekty/`: tři smyšlení klienti (Zahrada Kroupa, Bicyklo, Penzion Hvězda). Poznámka složky každého projektu jako jediný zdroj pravdy (Aktuální stav, Kapacita, Úkoly, Cizí úkoly, Archiv statusů) a podpoznámka s detailem.
+- `Nabídky.md`: poptávka, která ještě není projekt.
 - `CRM/`: firmy a lidé, jedna poznámka na entitu.
-- `daily/`: denní zápisy, jeden se schůzkou připravenou skillem `meeting-prep`.
-- `Knowledge Base/`: tematická stránka a Inbox se zachytávkou, kterou noční běh už zařadil.
-- `Backlog/`: položka k vyzkoušení.
+- `daily/`: šest denních zápisů, dvě schůzky připravené skillem `meeting-prep`.
+- `Knowledge Base/`: tematické stránky a Inbox se zachytávkami.
+- `Backlog/`: položky k vyzkoušení a tabulka Bases.
 - `Briefing.md` a `Scripts/briefing-prompt.md`: ukázka ranního briefingu a zkrácený prompt, kterým ho agent na serveru píše.
 - `Úkoly.md`: dotazy pluginu Tasks.
 - `.claude/skills/`: skilly `meeting-prep` (zkrácený) a `kb-zapis` (celý).
+- `.obsidian/`: nastavení vaultu a doplňky Tasks a Folder Notes, aby šel otevřít bez instalace.
 
 ### Jak si ho vyzkoušet
 
-1. Naklonovat repo a otevřít složku `demo-vault` v Obsidianu jako vault. Pluginy: [Tasks](https://publish.obsidian.md/tasks/), [Folder Notes](https://github.com/LostPaul/obsidian-folder-notes), volitelně Bases (součást Obsidianu).
+1. Naklonovat repo a otevřít složku `demo-vault` v Obsidianu jako vault. Doplňky [Tasks](https://publish.obsidian.md/tasks/) a [Folder Notes](https://github.com/LostPaul/obsidian-folder-notes) jsou přibalené, Obsidian se jen zeptá, jestli je smí zapnout.
 2. V terminálu:
 
    ```
@@ -36,7 +38,7 @@ Co v něm je:
    claude
    ```
 
-3. Zkusit například: „Jak jsme na tom se Zahradou Kroupa?", „Zapiš: crawl e-shopu vždy s vypnutým JavaScriptem nejdřív" nebo `/meeting-prep` (ten potřebuje [Google Workspace CLI](https://github.com/googleworkspace/cli) a kalendář, bez nich skončí u prvního kroku).
+3. Zkusit například: „Jak jsme na tom s Bicyklem?", „Zapiš: crawl e-shopu vždy s vypnutým JavaScriptem nejdřív" nebo `/meeting-prep` (ten potřebuje [Google Workspace CLI](https://github.com/googleworkspace/cli) a kalendář, bez nich skončí u prvního kroku).
 
 ## Co je potřeba mít nainstalované
 

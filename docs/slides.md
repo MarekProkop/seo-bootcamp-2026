@@ -93,7 +93,7 @@ Agent vidí všechno, co vidím já, a čte a píše to stejně jako kód.
 |---|---|
 | **Wikilinky** | Propojení informací, historie k projektům v daily notes apod. |
 | **Vlastnosti** | Frontmatter = strukturovaná data v textu. Dají se filtrovat. |
-| **GUI** | Čtení přehledně formátovaného textu, procházení odkazů, odškrtávní úkolů. |
+| **GUI** | Čtení přehledně formátovaného textu, procházení odkazů, odškrtávání úkolů. |
 | **Doplňky** | Tasks: `- [ ] úkol ➕ 📅 🛫 ✅` a dotazy. Denní poznámky: jedna na den, jeden formát. |
 | **CLI** | `obsidian rename`, `move`, `backlinks`, `property:set`. Odkazy se opraví samy. |
 
@@ -206,7 +206,7 @@ Automatická paměť Claude Code je vypnutá. Trvalé znalosti jsou v `CLAUDE.md
 - **Čte se v každé session.** Každý řádek stojí kontext. Šum = chyby.
 - **Jen co platí vždy a co agent sám nepozná.** Postup pro jednu činnost → skill.
 - **Jedno pravidlo, jedno místo.** Bez duplicit a rozporů, s datem a důvodem.
-- **Žádná měnící se fakta.** Stav projektu a kapacita jou v poznámkách projektů.
+- **Žádná měnící se fakta.** Stav projektu a kapacita jsou v poznámkách projektů.
 - **Vrstvy:** `~/.claude/CLAUDE.md` pro stroj, vault, repo klienta. Každá jen to své.
 - **Pravidelně refaktorovat:** sloučit, zkrátit, vyhodit, co model už dělá sám.
 - **Když agent pravidlo poruší:** nejdřív ověřit, že tam je, je jasné a nic mu neodporuje.

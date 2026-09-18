@@ -2,6 +2,7 @@ node_modules/
 priprava/
 docs/slides.pdf
 docs/slides.pptx
-demo-vault/.obsidian/
+demo-vault/.obsidian/workspace*.json
+demo-vault/.obsidian/cache/
 .DS_Store
 Thumbs.db
